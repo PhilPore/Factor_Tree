@@ -5,6 +5,9 @@ Tree is outputted as:
       Initial Value
         /      \
         Prime   Multiple
+                  /   \
+                Prime  Multiple
+           etc etc
         
 #Current Problems
 * Primes numbers are between 2 and 100,000. Mostly because it took a while to do a million so I decided to go with a smaller number. Possible fixes involve having an L and R pointer that get closer to each other, halving the inner loop's time complexity.
